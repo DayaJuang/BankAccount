@@ -8,5 +8,9 @@ public class Main {
         System.out.println(timAccount.getBalance());
         bobAccount.deposit(100);
         bobAccount.withdraw(25);
+
+        VipCustomer larry = new VipCustomer("Larry","Larry@gmail.com");
+
+        System.out.println(larry.getCreditLimit());
     }
 }
