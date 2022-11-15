@@ -3,8 +3,9 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         BankAccount bobAccount = new BankAccount();
+        BankAccount timAccount = new BankAccount("Tim","Tim@yahoo.com",12345);
 
-        System.out.println(bobAccount.getName());
+        System.out.println(timAccount.getBalance());
         bobAccount.deposit(100);
         bobAccount.withdraw(25);
     }

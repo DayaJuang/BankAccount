@@ -23,6 +23,10 @@ public class BankAccount {
 
     }
 
+    public BankAccount(String name, String email, int phoneNumber) {
+        this(123,name,email,phoneNumber,0.0);
+    }
+
     public void setBalance(double balance){
         this.balance = balance;
     }
